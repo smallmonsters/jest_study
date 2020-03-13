@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/smallmonsters/jest_study#readme",
   "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@babel/preset-env": "7.4.5",
     "jest": "24.8.0"
   }
 }

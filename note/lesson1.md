@@ -39,6 +39,11 @@ test("测试1+1", () => {
     "test": "jest"
   },
 ```
+
 2、控制台输入：
 yarn test
+
+3、jest cmd的一些参数
+
+> --watchAll 监听所有测试文件   
 
