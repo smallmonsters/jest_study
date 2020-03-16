@@ -25,10 +25,20 @@ function fn(arg) {
     }
 }
 ```
+
 我们需要些两个测试用例才能做到覆盖率100%，既当arg=true和arg=false.
 
 > Statements: 语句覆盖率，执行到每个语句；    
 > Branches: 分支覆盖率，执行到每个if代码块；   
 > Functions: 函数覆盖率，调用到程式中的每一个函数；    
 > Lines: 行覆盖率, 执行到程序中的每一行。      
+
+* 监听测试文件
+
+``` json
+//package.json
+"scripts": {
+    "test": "jest --watchAll"
+  },
+```
 
