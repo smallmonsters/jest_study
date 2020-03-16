@@ -14,8 +14,13 @@ Press o to only run tests related to changed files
 
 Press p to filter by a filename regex pattern
 
->按p：通过正则匹配要测试的测试文件
+> 按p：通过正则匹配要测试的测试文件
+
+Press c to clear filters.
+
+> 按c：清除正则匹配
 
 Press q to quit watch mode.
 
->按q：通过正则匹配要测试的测试用例的name
+> 按q：通过正则匹配要测试的测试用例的name
+
