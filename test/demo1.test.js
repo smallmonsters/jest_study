@@ -1,4 +1,4 @@
-import { add, minus } from '../src/lesson1';
+import { add, minus } from '../src/demo1';
 
 test("测试1+1", () => {
   expect(add(1, 1)).toBe(2)

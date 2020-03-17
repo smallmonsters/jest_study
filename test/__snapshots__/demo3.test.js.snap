@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`测试getConfig 1`] = `
+Object {
+  "age": 15,
+  "name": "Bob",
+}
+`;

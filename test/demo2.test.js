@@ -1,4 +1,4 @@
-import { fetchData, fetchData1, fetchErr } from "../src/async"
+import { fetchData, fetchData1, fetchErr } from "../src/demo2"
 
 test.skip("回调函数异步", (done) => {
   fetchData((res) => {

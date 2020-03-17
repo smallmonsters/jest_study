@@ -4,7 +4,7 @@
 
 > npx jest --init
 
-更具具体情况选择配置
+根据具体情况选择配置
 
 ![image](https://github.com/smallmonsters/jest_study/blob/master/asset/1.jpg)
 
