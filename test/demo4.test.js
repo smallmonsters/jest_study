@@ -5,7 +5,7 @@ import axios from 'axios';
 
 const { fetchData } = jest.requireActual('../src/demo4')
 
-// __mocks__要与源文件同级
+// __mocks__要与源文件同级,切mock文件名要与源文件一致
 const { fetchData1 } = jest.requireMock('../src/demo4')
 // 同等 
 // jest.mock("../src/demo4")
