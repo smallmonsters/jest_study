@@ -8,5 +8,5 @@
 * [jest测试模式](https://github.com/smallmonsters/jest_study/blob/master/note/lesson4.md)
 * [异步函数测试](https://github.com/smallmonsters/jest_study/blob/master/test/dome2.test.js)
 * [jest mock模块](https://github.com/smallmonsters/jest_study/blob/master/test/dome4.test.js)
-* [react中jest配置](https://github.com/smallmonsters/jest_study/blob/master/test/reactTDD1.md)
+* [react中jest配置](https://github.com/smallmonsters/jest_study/blob/master/note/lesson5.md)
 
