@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Header from '../../components/Header';
 import { findWrapper } from './../../../../utils/testUtil';
+import Header from '../../components/Header';
 
 describe('测试Header组件', () => {
   const value = "学习jest"

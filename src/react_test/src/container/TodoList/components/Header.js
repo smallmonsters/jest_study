@@ -5,18 +5,21 @@ class Header extends Component {
     value: ""
   }
   handleChange = ({ target: { value } }) => {
-    this.setState(()=>({ value }))
+    this.setState(() => ({ value }))
   }
   handleEnter = ({ keyCode }) => {
     if (this.state.value && keyCode === 13) {
-      this.setState(()=>({value:""}))
-      this.props.addUndoItem()
+      this.props.addUndoItem(this.state.value)
+      this.setState(() => ({ value: "" }))
     }
   }
   render() {
     return (
-      <div>
-        <input onKeyUp={this.handleEnter} value={this.state.value} onChange={this.handleChange} data-test="input"></input>
+      <div className="header">
+        <div className="header-content">
+          TodoList
+        <input placeholder="Add Todo" className="header-input" onKeyUp={this.handleEnter} value={this.state.value} onChange={this.handleChange} data-test="input"></input>
+        </div>
       </div>
     );
   }

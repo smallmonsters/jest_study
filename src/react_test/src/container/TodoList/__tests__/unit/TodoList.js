@@ -12,7 +12,6 @@ describe('ToDolist测试', () => {
   test('ToDolist向header组件传递一个addUndoItem方法', () => {
     const wrapper = shallow(<TodoList />)
     const Header=wrapper.find("Header")
-    console.log(Header.prop("addUndoItem"),wrapper.instance().addUndoItem)
     expect(Header.prop("addUndoItem")).toEqual(wrapper.instance().addUndoItem);
   });
   test('header组件点击回车，undoList增加', () => {
