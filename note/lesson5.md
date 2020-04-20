@@ -14,7 +14,7 @@
   "setupFiles": [
     "react-app-polyfill/jsdom"
   ],
-  // 但测试环境准备完成后，去执行某些文件
+  // 测试环境准备完成后，去执行某些文件
   "setupFilesAfterEnv": [
     "<rootDir>/src/setupTests.js"
   ],
