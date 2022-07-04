@@ -1,7 +1,7 @@
 import { getName } from "../getName"
 
 
-describe('Home文件测试', () => {
+describe('test1文件测试', () => {
   test("DOM文件测试", () => {
     const element = document.createElement('div');
     expect(element).not.toBeNull();
