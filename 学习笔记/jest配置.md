@@ -11,11 +11,11 @@
 
 每一个测试用例显示描述，既describe和test方法的一个参数。等同 jest --verbose
 
-- verbose:false
+- verbose:false  
 ![verbose:false](../asset/jest配置/1.png)
 
-- verbose:true
-![verbose:true](../asset/jest配置/2.png))
+- verbose:true  
+![verbose:true](../asset/jest配置/2.png)
 
 ### rootDir和roots
 
